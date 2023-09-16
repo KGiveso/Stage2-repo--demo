@@ -2,17 +2,15 @@
 <html>
 <head>
   <title>Movie Website</title>
-  <style>
-    <link rel="stylesheet" href="styles.css">
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>Top 10 Movies</h1>
   <div class="movie-grid">
-    <div class="movie-card">
-      <img src="path_to_movie_poster" alt="Movie Poster" class="movie-poster">
-      <h2 class="movie-title">Movie Title</h2>
-      <p class="movie-release-date">Release Date</p>
+    <div class="movie-card" data-testid="movie-card">
+      <img src="path_to_movie_poster" alt="Movie Poster" class="movie-poster" data-testid="movie-poster">
+      <h2 class="movie-title" data-testid="movie-title">Movie Title</h2>
+      <p class="movie-release-date" data-testid="movie-release-date">Release Date</p>
     </div>
     <!-- Repeat the movie-card div for each movie -->
   </div>
