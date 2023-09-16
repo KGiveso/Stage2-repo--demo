@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Website</title>
+  <style>
+    /* Add your CSS styles here */
+  </style>
+</head>
+<body>
+  <h1>Top 10 Movies</h1>
+  <div class="movie-grid">
+    <div class="movie-card">
+      <img src="path_to_movie_poster" alt="Movie Poster" class="movie-poster">
+      <h2 class="movie-title">Movie Title</h2>
+      <p class="movie-release-date">Release Date</p>
+    </div>
+    <!-- Repeat the movie-card div for each movie -->
+  </div>
+</body>
+</html>
