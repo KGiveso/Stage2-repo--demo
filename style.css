@@ -1,0 +1,25 @@
+/* styles.css */
+/* CSS for movie grid layout */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.movie-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.movie-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* CSS for responsive layout */
+@media screen and (max-width: 600px) {
+  .movie-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
