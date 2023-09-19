@@ -1,1 +1,1 @@
-# Stage2-repo--demo
+# Stage2 Movie review repository 
